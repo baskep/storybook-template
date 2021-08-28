@@ -61,5 +61,6 @@
   "dependencies": {
     "antd": "^4.16.13",
     "antd-mobile": "^2.3.4"
-  }
+  },
+  "gitHead": "523f6e003fc07dd0bbf5ee1d0bcc11da74986ee0"
 }
