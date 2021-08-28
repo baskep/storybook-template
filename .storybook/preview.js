@@ -8,6 +8,5 @@ export const parameters = {
   },
 }
 
-
-import '../stories/global-style/antd/index.less'
-import '../stories/global-style/antd-mobile/index.less'
+import '../packages/ui-mobile/src/global-style/antd/index.less'
+import '../packages/ui-mobile/src/global-style/antd-mobile/index.less'

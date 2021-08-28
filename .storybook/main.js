@@ -1,7 +1,7 @@
 module.exports = {
   "stories": [
-    "../stories/**/*.stories.mdx",
-    "../stories/**/*.stories.@(js|jsx|ts|tsx)"
+    "../packages/ui-mobile/src/**/*.stories.mdx",
+    "../packages/ui-mobile/src/**/*.stories.@(js|jsx|ts|tsx)"
   ],
   webpackFinal: async (config) => {
     config.module.rules.push({
