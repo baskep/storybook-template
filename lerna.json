@@ -1,0 +1,28 @@
+{
+  "packages": [
+    "packages/*"
+  ],
+  "npmClient": "yarn",
+  "useWorkspaces": true,
+  "version": "independent",
+  "command": {
+    "publish": {
+      "ignoreChanges": [
+        "{__tests__,tests}/**/*.{js,jsx,ts,tsx}",
+        "*.mdx",
+        "*.md"
+      ],
+      "message": "chore(release): publish [skip ci]",
+      "registry": "http://127.0.0.1:4873/"
+    },
+    "version": {
+      "message": "chore(release): publish new version [skip ci]",
+      "conventionalCommits": true
+    }
+  },
+  "bootstrap": {
+    "npmClientArgs": [
+      "--no-package-lock"
+    ]
+  }
+}
