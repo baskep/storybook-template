@@ -1,0 +1,78 @@
+@import "~antd-mobile/lib/style/themes/default.less";
+
+// -------- base --------
+@brand-primary: #0fb269;
+@brand-primary-tap: #007541;
+@brand-info: #0073f6; // [+]
+@brand-success: #07c160;
+@brand-warning: #f56a07;
+@brand-error: #f10505;
+@brand-important: #F10505;
+@brand-wait: @brand-primary;
+
+@brand-error-secondary: #ffeae6;
+@brand-success-secondary: #e6ffee;
+
+// -------- fill colors --------
+@fill-body: #efefef; // 页面背景
+@fill-body-background: @fill-body; // 为背景单独增加一个变量，后续修改使用
+@fill-mask: rgba(0, 0, 0, 0.3); // 遮罩背景
+@color-icon-base: #c5c5c5; // 图标默认背景
+
+// -------- text --------
+@font-size-subhead: 14 * @hd; // 子标题 bolder
+@font-size-caption: 14 * @hd; // 说明文字
+@font-size-heading: 16 * @hd; // 标题
+
+@color-text-base: #585858;
+@color-text-secondary: #848484;
+@color-text-heading: #1e1e1e; // [+]
+@color-text-caption: @color-text-secondary;
+@color-text-paragraph: @color-text-base;
+
+// -------- disabled state --------
+@color-text-disabled: #c5c5c5;
+@fill-disabled: #f5f5f5; // 通用失效背景
+
+// -------- margins / paddings --------
+@h-spacing-sm: 4 * @hd;
+@h-spacing-md: 8 * @hd;
+@h-spacing-lg: 12 * @hd;
+
+@v-spacing-sm: 4 * @hd;
+@v-spacing-md: 8 * @hd;
+@v-spacing-lg: 12 * @hd;
+@v-spacing-xl: 16 * @hd;
+
+@spacing-sm: 4 * @hd; // [+]
+@spacing-md: 8 * @hd; // [+]
+@spacing-lg: 12 * @hd; // [+]
+@spacing-xl: 16 * @hd; // [+]
+
+// -------- border --------
+@border-color-base: #e8e8e8;
+@border-width-base: @border-width-sm; // [+]
+@border-style-base: solid; // [+]
+@border-base: @border-width-base @border-style-base @border-color-base; // [+]
+
+// -------- radius --------
+@radius-sm: 4 * @hd;
+@radius-md: 8 * @hd;
+@radius-lg: 12 * @hd;
+@radius-button: @radius-sm; // [+] 按钮圆角
+@radius-component: @radius-md; // [+] 卡片/容器组件圆角
+
+// -------- icons --------
+@icon-size-xxs: 12 * @hd;
+@icon-size-xs: 16 * @hd;
+@icon-size-sm: 18 * @hd;
+@icon-size-md: 24 * @hd; // 导航条上的图标、grid 的图标大小
+@icon-size-lg: 28 * @hd;
+@icon-size-xl: 44 * @hd; // [+]
+
+// -------- shadow --------
+@box-shadow-base: 0 4px 8px #f2f2f2;
+
+// -------- list --------
+@list-item-height-sm: 32 * @hd;
+@list-item-height: 42 * @hd;

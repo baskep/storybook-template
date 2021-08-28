@@ -1,0 +1,35 @@
+@import "~antd-mobile/lib/style/anim.less";
+
+@animation-duration-base: 0.3s;
+@animation-timing-function-enter: ease-in;
+@animation-timing-function-leave: ease-out;
+
+.dm-fade {
+  &-enter-active {
+    animation: 0.3s dm-fade-in both
+      @animation-timing-function-enter;
+  }
+
+  &-exit-active {
+    animation: 0.3s dm-fade-out both
+      @animation-timing-function-leave;
+  }
+}
+
+@keyframes dm-fade-in {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes dm-fade-out {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+  }
+}
